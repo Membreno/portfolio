@@ -95,7 +95,7 @@ function designForm() {
 $(document).ready(function() {
 	Typed.new("#writing-text", {
 		strings: [
-			"am a Full-Stack Web Developer.", "love code.", "also teach programming to people.", "solve problems."
+			"I am a Full-Stack Web Developer.", "I teach programming to people.", "I solve problems."
 		],
 		// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 		stringsElement: null,
