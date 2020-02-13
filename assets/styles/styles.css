@@ -73,6 +73,16 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /*** About Section ***/
+.moneyleft__images {
+	display: flex;
+	justify-content: center;
+}
+
+.moneyleft__images img {
+	width: 42%;
+
+}
+
 #banner_section{
 	height: 10em;
 	background-image: url(../images/desk_laptop.jpg);
@@ -188,7 +198,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*** work ***/
 #projects {
-	margin-bottom: 2em !important;
+	margin-bottom: 1em !important;
 }
 
 .techIcons{
