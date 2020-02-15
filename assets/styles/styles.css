@@ -73,12 +73,12 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /*** About Section ***/
-.moneyleft__images {
+#moneyleft__images {
 	display: flex;
 	justify-content: space-evenly;
 }
 
-.moneyleft__images img {
+#moneyleft__images img {
 	width: 42%;
 
 }

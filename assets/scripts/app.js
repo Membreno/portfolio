@@ -6,6 +6,10 @@ const check__button = document.getElementById("check__button");
 const check__video = document.getElementById("check__video");
 const check__image = document.getElementById("check__image");
 
+const moneyleft__button = document.getElementById("moneyleft__button");
+const moneyleft__video = document.getElementById("moneyleft__video");
+const moneyleft__images = document.getElementById("moneyleft__images");
+
 
 lineup__button.addEventListener("click", function(){
 	lineup__image.classList.toggle("hide");
@@ -15,6 +19,11 @@ lineup__button.addEventListener("click", function(){
 check__button.addEventListener("click", function(){
 	check__image.classList.toggle("hide");
 	check__video.classList.toggle("hide");
+})
+
+moneyleft__button.addEventListener("click", function(){
+	moneyleft__images.classList.toggle("hide");
+	moneyleft__video.classList.toggle("hide");
 })
 
 function makeWords() {
