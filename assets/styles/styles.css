@@ -73,12 +73,6 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /*** About Section ***/
-/* #moneyleft__images {
-	display: flex;
-	justify-content: space-evenly;
-}
-*/
-
 #moneyleft__images img {
 	width: 42%;
 	margin-bottom: 1rem;
@@ -94,7 +88,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #about {
-		/* margin-top: 10em; */
 		border: 1px solid #eee;
 		background-color: white;
 		padding-bottom: 1em;
