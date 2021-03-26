@@ -1,10 +1,5 @@
 {
   "name": "Adhoc Portfolio",
-  "homepage": "",
-  "authors": [
-    "developertenzin <>"
-  ],
-  "description": "This is just a portfolio in a hurry",
   "main": "app.js",
   "license": "MIT",
   "ignore": [
