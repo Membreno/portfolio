@@ -257,28 +257,36 @@ h1, h2, h3, h4, h5, h6 {
 		color: #fff;
 }
 
-/*** teaching ***/
-#teaching {
-	padding: 6em 4em 3em;
+/*** education ***/
+.education-picture {
+	width: 300px;
+	display: inline-block;
 }
 
-#teaching h2 {
-	color: #595959;
+.education-content {
+	display: inline-block;
+	width: 60%;
+	text-align: center;
 }
 
-#teaching .tag-line {
-	color: #848282;
-	font-size: 1.4em;
+.education-content h4 {
+	color: #05AAE2;
+	-webkit-text-stroke-width: 0.25px;
+  	-webkit-text-stroke-color: #fff;
+	letter-spacing: 2px;
+	
 }
 
-#teaching .teaching-domains {
-	height: 500px;
-	width: auto;
-	margin-top: -4em;
-}
-
-
-
+/* @media(max-width: 845px) {
+  .education-picture {
+	display: block;
+	margin: 0 auto;
+  }
+  .education-content {
+    width: 100%;
+	display: block;
+  }
+} */
 
 /*** Footer Call-to-action ***/
 #footer-cta {
