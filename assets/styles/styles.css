@@ -264,8 +264,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .education-content {
-	display: inline-block;
-	width: 60%;
 	text-align: center;
 }
 
@@ -277,16 +275,6 @@ h1, h2, h3, h4, h5, h6 {
 	
 }
 
-/* @media(max-width: 845px) {
-  .education-picture {
-	display: block;
-	margin: 0 auto;
-  }
-  .education-content {
-    width: 100%;
-	display: block;
-  }
-} */
 
 /*** Footer Call-to-action ***/
 #footer-cta {
